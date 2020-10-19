@@ -1,0 +1,1 @@
+body:before{white-space:pre;font-family:monospace;content:"Error: Undefined variable: \"$page-width-content\".\A         on line 4 of advantages.scss\A \A 1: .advantages {\A 2:   display: flex;\A 3:   align-items: baseline;\A 4:   width: $page-width-content;\A 5:   justify-content: space-between;\A 6:   margin: 80px auto;\A 7:   text-align: center;\A 8: \A 9:   &__information {"}
