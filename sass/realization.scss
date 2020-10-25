@@ -1,0 +1,80 @@
+.realization {
+  width: 100%;
+  background: #fbfaf8;
+  padding-top: 80px;
+  text-align: center;
+
+  &__heading {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 34px;
+    padding-bottom: 30px;
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 5px;
+  }
+
+  &__summary {
+    vertical-align:bottom;
+    padding-top: 40px;
+  }
+
+  &__footer {
+    color: #fff;
+    padding: 45px;
+    background: rgb(33,27,25);
+    background: linear-gradient(90deg, rgba(33,27,25,1) 35%, rgba(78,52,39,1) 100%);
+  }
+
+  &__multipurpose {
+    width: $page-width-content;
+    margin: 0 auto;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__caption {
+    font-size: 28px;
+    line-height: 32px;
+
+    &-color {
+      font-size: 28px;
+      line-height: 32px;
+      color: #c7b299;
+    }
+  }
+
+  &__word {
+    font-size: 18px;
+    color: #615855;
+    padding-top: 10px;
+  }
+
+  &__button {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 20px 40px;
+    background: #998675;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 800;
+    cursor: pointer;
+    border-bottom: 4px solid $colorfonshadow;
+
+    &:hover {
+      background: #8c7b6b;
+      border-bottom: 4px solid #605247;
+    }
+    &:active {
+      background: #807163;
+      border-bottom: 4px solid #55493f;
+    }
+  }
+
+}

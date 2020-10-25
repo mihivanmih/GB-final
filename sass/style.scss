@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;600;800&family=Raleway:wght@100;400;500;700;800&display=swap');
+
+$page-width: 1920px;
+$page-width-content: 1170px;
+$colorfon: #cdbca9; //цвет кнопок, ссылок и т.д.
+$colorfonshadow: #736357; //цвет бордеров, нажатий и т.д.
+
+*, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+@import "header.scss";
+@import "advantages.scss";
+@import "realization.scss";
